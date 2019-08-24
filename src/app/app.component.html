@@ -1,0 +1,23 @@
+
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr *ngFor="let item of data">
+    <td>{{item.Company}}</td>
+    <td>{{item.Contact}}</td>
+    <td>{{item.Country}}</td>
+  </tr>
+</table>
+
+<div style="margin:20px">
+    Upload File: <input type="file" (change)="onChange($event.target.files)">
+</div>
+
+<div>
+  <h3>File Content</h3>
+  <pre> {{fileContent}} </pre>
+</div>
+<router-outlet></router-outlet>

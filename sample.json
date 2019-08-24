@@ -1,0 +1,15 @@
+[
+    {
+      "Company": "IBM", "Contact": "A", "Country":"IN"
+    },
+    {
+      "Company": "ACC", "Contact": "B", "Country":"IN"
+    },
+	{
+      "Company": "IBM", "Contact": "A", "Country":"IN"
+    },
+    {
+      "Company": "ACC", "Contact": "B", "Country":"IN"
+    }
+  ]
+  
