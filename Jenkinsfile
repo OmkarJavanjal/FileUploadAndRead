@@ -10,7 +10,6 @@ pipeline {
         echo 'executing frontend application...'
         nodejs('Node-18.3.0') {
           sh 'npm install'
-          sh 'npm install @angular/cli'
           sh 'npm start'
         }
       }
